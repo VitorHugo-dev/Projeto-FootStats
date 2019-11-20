@@ -1,0 +1,4480 @@
+@prefix dbpedia: <http://dbpedia.org/page/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <https://footstats.com.br/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+foot:Competition a foaf:Project .
+
+foot:a101075 foaf:firstname "Mason Greenwood" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 26 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a101076 foaf:firstname "James Garner" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 37 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a101077 foaf:firstname "Jamie Cumming" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a101345 foaf:firstname "Eric García" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number 50 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a10182 foaf:firstname "Ricardo Pereira" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 21 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a102044 foaf:firstname "Ki-Jana Hoever" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a102046 foaf:firstname "Caoimhin Kelleher" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 62 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a102438 foaf:firstname "Ian Carlo Poveda" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a102439 foaf:firstname "Taylor Richards" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a102441 foaf:firstname "Daniel Grimshaw" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a102843 foaf:firstname "Brennan Camp" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a103 foaf:firstname "Florin Andone" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Romania" ;
+    foot:number 23 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a1044 a "team" ;
+    foaf:firstname "AFC Bournemouth" ;
+    foot:address "Dean Court, Kings Park Bournemouth BH7 7AF" ;
+    foot:clubcolors "Red / Black" ;
+    foot:founded 1890 ;
+    foot:nick "BOU" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.afcb.co.uk" .
+
+foot:a10653 foaf:firstname "Joelinton" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 9 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a111437 foaf:firstname "Jacob Ramsey" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a11296 foaf:firstname "Ben Osborn" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 23 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a11315 foaf:firstname "Nuno Espírito Santo" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11323 foaf:firstname "Daniel Farke" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11338 foaf:firstname "Chris Wilder" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11339 foaf:firstname "Dean Smith" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11357 foaf:firstname "Callum Robinson" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 11 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a11411 foaf:firstname "Michael Hector" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Jamaica" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a11421 foaf:firstname "Steve Bruce" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11528 foaf:firstname "Fikayo Tomori" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number 29 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a11579 foaf:firstname "Marco Silva" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Portugal" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11584 foaf:firstname "Sean Dyche" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11594 foaf:firstname "Eddie Howe" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11601 foaf:firstname "Todd Cantwell" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "England" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a11603 foaf:firstname "Pep Guardiola" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11609 foaf:firstname "Mauricio Pochettino" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11616 foaf:firstname "Unai Emery" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Spain" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11619 foaf:firstname "Arteta" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "ASSISTANT_COACH" .
+
+foot:a11623 foaf:firstname "Dwight McNeil" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 11 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a11628 foaf:firstname "Roy Hodgson" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11630 foaf:firstname "Manuel Pellegrini" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Chile" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a11633 foaf:firstname "Isaac Success" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Nigeria" ;
+    foot:number 22 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a11775 foaf:firstname "Jack Colback" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a11777 foaf:firstname "Harry Wilson" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Wales" ;
+    foot:number 22 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a118489 foaf:firstname "Marc Guéhi" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number 44 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a118494 foaf:firstname "Nikola Tavares" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Croatia" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a120969 foaf:firstname "Ming-yang Yang" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a122595 foaf:firstname "Andreas Søndergaard" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Denmark" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a122596 foaf:firstname "Terry Taylor" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Scotland" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a122597 foaf:firstname "Nathaniel Wan" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a122990 foaf:firstname "Dion Sanderson" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a124825 foaf:firstname "Joel Senior" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a125216 foaf:firstname "Romaric Yapi" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "France" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a125561 foaf:firstname "Adam Idah" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 35 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a126289 foaf:firstname "Billy Gilmour" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 47 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a128238 foaf:firstname "Alexander Cochrane" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a128239 foaf:firstname "Jordan Davies" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Wales" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a128240 foaf:firstname "Hayden Roberts" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a128242 foaf:firstname "Cameron Archer" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a128310 foaf:firstname "Matthew Longstaff" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 43 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a128312 foaf:firstname "Gavin Kilkenny" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a128313 foaf:firstname "Lewis Richardson" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a128564 foaf:firstname "Dan Nlundulu" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 40 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a131035 foaf:firstname "Taylor Harwood-Bellis" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a131036 foaf:firstname "Alpha Richard Dionkou" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Senegal" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131037 foaf:firstname "Japhet Tanganga" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a131038 foaf:firstname "Tolaji Bola" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a131039 foaf:firstname "Robbie Burton" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Wales" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131040 foaf:firstname "Folarin Balogun" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a131041 foaf:firstname "Troy Parrott" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 52 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a131114 foaf:firstname "Taylor Perry" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number 26 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131116 foaf:firstname "Adam Lewis" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131117 foaf:firstname "Luis Longstaff" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131118 foaf:firstname "Leighton Clarkson" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131119 foaf:firstname "Faustino Anjorin" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a131120 foaf:firstname "Ian Maatsen" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a131121 foaf:firstname "Archie Davies" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131122 foaf:firstname "Ryan Longman" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131123 foaf:firstname "Jack Spong" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131124 foaf:firstname "Teddy Jenks" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a131125 foaf:firstname "Warren O'Hora" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a131126 foaf:firstname "Brandon Williams" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 53 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a131127 foaf:firstname "Will Dennis" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a131964 foaf:firstname "Archie Mair" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 60 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a133229 foaf:firstname "Brandon Austin" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 49 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a133312 foaf:firstname "Brian Kidd" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "ASSISTANT_COACH" .
+
+foot:a133734 foaf:firstname "Thomas Doyle" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a133735 foaf:firstname "Jake Vokins" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a133765 foaf:firstname "Neco Williams" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Wales" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a133766 foaf:firstname "Yasser Larouci" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "France" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a133767 foaf:firstname "Billy Koumetio" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "France" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a133770 foaf:firstname "Chem Campbell" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Wales" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a133771 foaf:firstname "Austin Samuels" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a133772 foaf:firstname "Lewis Richards" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a133773 foaf:firstname "Flávio Cristóvão" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a133787 foaf:firstname "Tariq Lamptey" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a137 foaf:firstname "Sokratis Papastathopoulos" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Greece" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a1436 foaf:firstname "Fabián Balbuena" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Paraguay" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a145 foaf:firstname "Christian Pulisic" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "United States" ;
+    foot:number 22 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a15614 foaf:firstname "Stuart Armstrong" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 17 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a15615 foaf:firstname "Kieran Tierney" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a15624 foaf:firstname "Brendan Rodgers" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Northern Ireland" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a15905 foaf:firstname "Diogo Dalot" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 20 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a15986 foaf:firstname "Björn Engels" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 22 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a16005 foaf:firstname "Tudor Băluţă" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Romania" ;
+    foot:number 28 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a16063 foaf:firstname "Albian Ajeti" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number 27 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a16076 foaf:firstname "Patrick Roberts" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "England" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a163 foaf:firstname "Andrii Yarmolenko" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Ukraine" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a16476 foaf:firstname "Bernard" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a1757 foaf:firstname "Patrick Cutrone" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Italy" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a1795 foaf:firstname "Alisson" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a1865 foaf:firstname "Adam Masina" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Italy" ;
+    foot:number 11 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a1868 foaf:firstname "Emil Krafth" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Sweden" ;
+    foot:number 17 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a2000 foaf:firstname "João Cancelo" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 27 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a2021 a "competition" ;
+    dc:description "Premier League é uma liga profissional de futebol da Inglaterra e está no topo do sistema de ligas do futebol inglês, sendo a principal competição de futebol do país. Ela era patrocinada pelo Barclays Bank até 2016, motivo pelo qual era oficialmente chamada de Barclays Premier League. É disputada por vinte clubes no sistema de pontos corridos, em que no final de cada temporada os quatro melhores colocados participam da Liga dos Campeões da UEFA, e os três piores são rebaixados para a Football League Championship, dando lugar aos três melhores desta competição. Cada temporada decorre entre agosto e maio, tendo 38 rodadas com dez partidas cada, totalizando 380 partidas em toda a temporada. A maioria dos jogos são disputados durante o período da tarde nos sábados e domingos e algumas vezes durante a noite no meio da semana. A competição foi formada como FA Premier League em 20 de fevereiro de 1992, após a decisão dos clubes da Football League First Division de romperem com a Football League, originalmente fundada em 1888, para aumentarem suas receitas provenientes de direitos de televisão, que atualmente rendem um bilhão de libras por ano para transmissões domésticas, com a BSkyB e BT Group. A Premier League é a liga de futebol mais popular do mundo, transmitida por oitenta redes de televisão em mais de duzentos países. Na temporada 2013–14 a média de público da competição foi de 36 631, sendo a segunda mais alta em ligas de futebol profissional, atrás apenas da Bundesliga. A Premier League está em segundo lugar nos coeficientes de ligas da UEFA, baseados nos desempenhos em competições europeias ao longo dos últimos cinco anos. Desde 1888, 24 clubes foram coroados campeões do sistema de futebol inglês. Desde a criação da liga, em 1992, um total de 47 clubes já estiveram na Premier League, dos quais seis venceram o título: o Manchester United, o maior campeão com treze títulos, o Chelsea, com quatro títulos, o Arsenal, com três títulos e único clube a conquistar a Premier League de forma invicta, o Manchester City, com dois títulos, Blackburn Rovers e o atual campeão Leicester City , com uma conquista. Além dos títulos únicos das cidades de Blackburn e Leicester, apenas as cidades de Manchester (15) e Londres (7) festejaram o título." ;
+    dc:homepage "http://dbpedia.org/data/Premier_League.json" ;
+    foaf:firstname "Premier League" ;
+    foaf:nick "PL" ;
+    foot:location "England" .
+
+foot:a2060 foaf:firstname "Felipe Anderson" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a2073 foaf:firstname "Bruno Jordão" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a2074 foaf:firstname "Pedro Neto" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 7 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a2094 foaf:firstname "Jorginho" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Italy" ;
+    foot:number 5 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a2171 foaf:firstname "Moise Kean" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Italy" ;
+    foot:number 27 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a2259 foaf:firstname "Dennis Praet" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 26 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a2260 foaf:firstname "Lucas Torreira" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Uruguay" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a23122 foaf:firstname "Filip Benković" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Croatia" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a24121 foaf:firstname "Teemu Pukki" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Finland" ;
+    foot:number 22 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a25376 foaf:firstname "Max Kilman" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number 49 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a25598 foaf:firstname "Frank Lampard" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a277 foaf:firstname "Diego Rico" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Spain" ;
+    foot:number 21 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a31025 foaf:firstname "Pontus Dahlberg" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Sweden" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a31097 foaf:firstname "Graham Potter" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a3121 foaf:firstname "Vicente Guaita" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Spain" ;
+    foot:number 31 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a31375 foaf:firstname "Peter Gwargis" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Sweden" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3141 foaf:firstname "Emiliano Martínez" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3174 foaf:firstname "Bernd Leno" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Germany" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3177 foaf:firstname "Antonio Rüdiger" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Germany" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3180 foaf:firstname "Mesut Özil" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Germany" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3182 foaf:firstname "Ilkay Gündogan" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3184 foaf:firstname "Leroy Sané" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Germany" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3188 foaf:firstname "David De Gea" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Spain" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3189 foaf:firstname "Kepa Arrizabalaga" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Spain" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3191 foaf:firstname "Azpilicueta" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Spain" ;
+    foot:number 28 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a31941 foaf:firstname "Emiliano Buendía" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 17 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3195 foaf:firstname "Marcos Alonso" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Spain" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3196 foaf:firstname "David Silva" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number 21 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3199 foaf:firstname "Rodri" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number 16 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3202 foaf:firstname "Sergio Romero" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 22 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3203 foaf:firstname "Willy Caballero" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 13 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3205 foaf:firstname "Nicolás Otamendi" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3206 foaf:firstname "Marcos Rojo" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3213 foaf:firstname "Manuel Lanzini" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3216 foaf:firstname "Giovani Lo Celso" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3222 foaf:firstname "Ederson" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 31 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3227 foaf:firstname "Fernandinho" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 25 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3230 foaf:firstname "Willian" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3232 foaf:firstname "Fred" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 17 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3233 foaf:firstname "Roberto Firmino" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3236 foaf:firstname "Gabriel Jesus" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3239 foaf:firstname "Rui Patrício" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 11 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3244 foaf:firstname "Cédric" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3249 foaf:firstname "João Moutinho" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 28 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3251 foaf:firstname "André Gomes" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 21 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3254 foaf:firstname "Bernardo Silva" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3255 foaf:firstname "Rúben Neves" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a32793 foaf:firstname "Roberto Jiménez" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Spain" ;
+    foot:number 13 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a328 a "team" ;
+    foaf:firstname "Burnley FC" ;
+    foot:address "Harry Potts Way Burnley BB10 4BX" ;
+    foot:clubcolors "Claret / Sky Blue" ;
+    foot:founded 1881 ;
+    foot:nick "BUR" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.burnleyfootballclub.com" .
+
+foot:a33040 foaf:firstname "Víctor Camarasa" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Spain" ;
+    foot:number 23 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3305 foaf:firstname "Raúl Jiménez" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Mexico" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3307 foaf:firstname "Joe Hart" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 20 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3309 foaf:firstname "Jordan Pickford" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3310 foaf:firstname "Nick Pope" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3311 foaf:firstname "Kyle Walker" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a33117 foaf:firstname "Pablo Fornals" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Spain" ;
+    foot:number 18 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3313 foaf:firstname "John Stones" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a33139 foaf:firstname "Martín Montoya" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Spain" ;
+    foot:number 22 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3314 foaf:firstname "Eric Dier" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a33153 foaf:firstname "Andreas Pereira" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 15 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3316 foaf:firstname "James Tarkowski" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3317 foaf:firstname "Ashley Young" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 18 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3318 foaf:firstname "Adam Lallana" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3319 foaf:firstname "Danny Rose" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 3 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3320 foaf:firstname "Jordan Henderson" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3322 foaf:firstname "Jack Wilshere" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number 19 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3323 foaf:firstname "Alex Oxlade-Chamberlain" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3324 foaf:firstname "Dele Alli" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3325 foaf:firstname "Jesse Lingard" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3326 foaf:firstname "Harry Maguire" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3327 foaf:firstname "Lewis Cook" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 16 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3328 foaf:firstname "Danny Welbeck" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3329 foaf:firstname "Raheem Sterling" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3330 foaf:firstname "Jamie Vardy" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3331 foaf:firstname "Marcus Rashford" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3342 foaf:firstname "Ki Sungyueng" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Korea Republic" ;
+    foot:number 4 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3343 foaf:firstname "Son Heungmin" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Korea Republic" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a33525 foaf:firstname "Douglas Luiz" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3355 foaf:firstname "Hugo Lloris" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "France" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3359 foaf:firstname "Lucas Digne" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "France" ;
+    foot:number 12 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3362 foaf:firstname "Djibril Sidibé" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "France" ;
+    foot:number 19 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a33622 foaf:firstname "Jonny Castro" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Spain" ;
+    foot:number 19 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3366 foaf:firstname "Paul Pogba" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "France" ;
+    foot:number 6 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3367 foaf:firstname "N'Golo Kanté" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "France" ;
+    foot:number 7 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3371 foaf:firstname "Olivier Giroud" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "France" ;
+    foot:number 18 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3372 foaf:firstname "Anthony Martial" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "France" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a338 a "team" ;
+    foaf:firstname "Leicester City FC" ;
+    foot:address "The Walkers Stadium, Filbert Way Leicester LE2 7FL" ;
+    foot:clubcolors "Royal Blue / White" ;
+    foot:founded 1884 ;
+    foot:nick "LEI" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.lcfc.com" .
+
+foot:a3380 foaf:firstname "Leon Balogun" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Nigeria" ;
+    foot:number 14 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3383 foaf:firstname "Wilfred Ndidi" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Nigeria" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3392 foaf:firstname "Alex Iwobi" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Nigeria" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a340 a "team" ;
+    foaf:firstname "Southampton FC" ;
+    foot:address "Britannia Road Southampton SO14 5FP" ;
+    foot:clubcolors "Red / White / Black" ;
+    foot:founded 1885 ;
+    foot:nick "SOU" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.saintsfc.co.uk" .
+
+foot:a3400 foaf:firstname "Kelechi Iheanacho" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Nigeria" ;
+    foot:number 14 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3403 foaf:firstname "Maty Ryan" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Australia" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3415 foaf:firstname "Aaron Mooy" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Australia" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3438 foaf:firstname "Nemanja Matić" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Serbia" ;
+    foot:number 31 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3439 foaf:firstname "Luka Milivojević" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Serbia" ;
+    foot:number 4 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3448 foaf:firstname "Kasper Schmeichel" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Denmark" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3449 foaf:firstname "Jonas Lössl" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Denmark" ;
+    foot:number 49 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a34494 foaf:firstname "Kenny McLean" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 23 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3455 foaf:firstname "Andreas Christensen" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Denmark" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3459 foaf:firstname "Christian Eriksen" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Denmark" ;
+    foot:number 23 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a346 a "team" ;
+    foaf:firstname "Watford FC" ;
+    foot:address "Vicarage Road Watford WD18 0ER" ;
+    foot:clubcolors "Yellow / Black" ;
+    foot:founded 1881 ;
+    foot:nick "WAT" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.watfordfc.com" .
+
+foot:a34646 foaf:firstname "John McGinn" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 7 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3477 foaf:firstname "Granit Xhaka" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number 34 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3480 foaf:firstname "Josip Drmić" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number 20 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3492 foaf:firstname "Victor Nilsson-Lindelöf" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Sweden" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a35254 foaf:firstname "Harry Lewis" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 41 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3526 foaf:firstname "Łukasz Fabiański" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Poland" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a354 a "team" ;
+    foaf:firstname "Crystal Palace FC" ;
+    foot:address "Whitehorse Lane London SE25 6PU" ;
+    foot:clubcolors "Red / Blue" ;
+    foot:founded 1905 ;
+    foot:nick "CRY" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.cpfc.co.uk" .
+
+foot:a3547 foaf:firstname "Lovre Kalinić" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Croatia" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a356 a "team" ;
+    foaf:firstname "Sheffield United FC" ;
+    foot:address "Bramall Lane Sheffield, Yorkshire S2 4SU" ;
+    foot:clubcolors "Red / White / Black" ;
+    foot:founded "None" ;
+    foot:nick "SHE" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.sufc.co.uk" .
+
+foot:a3618 foaf:firstname "Cheikhou Kouyaté" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Senegal" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3626 foaf:firstname "Sadio Mané" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Senegal" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3630 foaf:firstname "Baye Oumar Niasse" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Senegal" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3634 foaf:firstname "Henri Saivet" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Senegal" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3638 foaf:firstname "Ismaïla Sarr" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Senegal" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3646 foaf:firstname "Jan Vertonghen" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3648 foaf:firstname "Toby Alderweireld" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3654 foaf:firstname "Kevin De Bruyne" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 17 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3658 foaf:firstname "Youri Tielemans" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3659 foaf:firstname "Leander Dendoncker" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 32 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3663 foaf:firstname "Divock Origi" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 27 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3664 foaf:firstname "Michy Batshuayi" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 23 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a369 foaf:firstname "Meritan Shabani" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Albania" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3706 foaf:firstname "Sofiane Boufal" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Morocco" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3710 foaf:firstname "Romain Saïss" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Morocco" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3728 foaf:firstname "Yerry Mina" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Colombia" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3729 foaf:firstname "Carlos Sánchez" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Colombia" ;
+    foot:number 15 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3733 foaf:firstname "Davinson Sánchez" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Colombia" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3735 foaf:firstname "José Izquierdo" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Colombia" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3737 foaf:firstname "Jefferson Lerma" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Colombia" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3753 foaf:firstname "Ahmed El Mohamady" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Egypt" ;
+    foot:number 27 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3754 foaf:firstname "Mohamed Salah" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Egypt" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3759 foaf:firstname "Trezeguet" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Egypt" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a38106 foaf:firstname "Ole Gunnar Solskjær" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Norway" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a3819 foaf:firstname "Alireza Jahanbakhsh" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Iran" ;
+    foot:number 16 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3839 foaf:firstname "Jóhann Berg Guðmundsson" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Iceland" ;
+    foot:number 7 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3883 foaf:firstname "Jed Steer" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 12 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3889 foaf:firstname "James Chester" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Wales" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3890 foaf:firstname "Neil Taylor" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Wales" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a38919 foaf:firstname "Ravel Morrison" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Jamaica" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3894 foaf:firstname "Axel Tuanzebe" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 38 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3895 foaf:firstname "Jack Grealish" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3896 foaf:firstname "Keinan Davis" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 39 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3898 foaf:firstname "Henri Lansbury" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3900 foaf:firstname "Conor Hourihane" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3908 foaf:firstname "Robert Snodgrass" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 11 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3913 foaf:firstname "Jonathan Kodjia" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Côte d’Ivoire" ;
+    foot:number 26 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a3954 foaf:firstname "David Button" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number 27 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3959 foaf:firstname "Ryan Sessegnon" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 19 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3962 foaf:firstname "Matt Targett" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 18 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3966 foaf:firstname "Ryan Fredericks" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number 24 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a397 a "team" ;
+    foaf:firstname "Brighton & Hove Albion FC" ;
+    foot:address "44 North Road Brighton & Hove BN1 1YR" ;
+    foot:clubcolors "Blue / White" ;
+    foot:founded 1898 ;
+    foot:nick "BHA" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.seagulls.co.uk" .
+
+foot:a3972 foaf:firstname "Oliver Norwood" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Northern Ireland" ;
+    foot:number 16 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3980 foaf:firstname "Michael McGovern" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Northern Ireland" ;
+    foot:number 33 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3981 foaf:firstname "Angus Gunn" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 28 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a3982 foaf:firstname "Timm Klose" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3985 foaf:firstname "Christoph Zimmermann" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3986 foaf:firstname "Grant Hanley" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a3989 foaf:firstname "Alexander Tettey" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Norway" ;
+    foot:number 27 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3992 foaf:firstname "James Maddison" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3993 foaf:firstname "Mario Vrančić" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Bosnia and Herzegovina" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3996 foaf:firstname "Tom Trybull" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 19 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3997 foaf:firstname "Marco Stiepermann" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 18 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a3998 foaf:firstname "Jamal Lewis" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Northern Ireland" ;
+    foot:number 12 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4000 foaf:firstname "Onel Hernández" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Cuba" ;
+    foot:number 11 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4001 foaf:firstname "Dennis Srbeny" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 32 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4002 foaf:firstname "Moritz Leitner" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4035 foaf:firstname "Luke Freeman" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4040 foaf:firstname "Jason Steele" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a4078 foaf:firstname "John Ruddy" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number 21 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a4081 foaf:firstname "Matt Doherty" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4082 foaf:firstname "Kortney Hause" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4083 foaf:firstname "Conor Coady" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number 16 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4084 foaf:firstname "Ryan Bennett" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4086 foaf:firstname "Willy Boly" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Côte d’Ivoire" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4087 foaf:firstname "Phil Ofosu-Ayeh" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Ghana" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4089 foaf:firstname "Ruben Vinagre" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 29 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4090 foaf:firstname "Oskar Buur" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Denmark" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4091 foaf:firstname "Morgan Gibbs-White" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number 17 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4092 foaf:firstname "Diogo Jota" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 18 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4119 foaf:firstname "Che Adams" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4124 foaf:firstname "Jota Peleteiro" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Spain" ;
+    foot:number 23 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4131 foaf:firstname "Bailey Peacock-Farrell" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Northern Ireland" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a4133 foaf:firstname "Andrew Lonergan" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 22 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a4169 foaf:firstname "Sam Dalby" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4172 foaf:firstname "Scott Carson" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number 33 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a4195 foaf:firstname "Matěj Vydra" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Czech Republic" ;
+    foot:number 27 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4207 foaf:firstname "Ben Gibson" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 14 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4213 foaf:firstname "Muhamed Bešić" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Bosnia and Herzegovina" ;
+    foot:number 27 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4221 foaf:firstname "Adama Traoré" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Spain" ;
+    foot:number 37 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4228 foaf:firstname "Adam Webster" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4247 foaf:firstname "David McGoldrick" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 17 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4292 foaf:firstname "Simon Moore" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 25 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a4295 foaf:firstname "Chris Basham" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4296 foaf:firstname "Kieron Freeman" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Wales" ;
+    foot:number 18 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4297 foaf:firstname "Jack O'Connell" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4302 foaf:firstname "Enda Stevens" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4303 foaf:firstname "Richard Stearman" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 19 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4307 foaf:firstname "John Fleck" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 4 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4313 foaf:firstname "George Baldock" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4315 foaf:firstname "John Lundstram" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 7 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a4320 foaf:firstname "Billy Sharp" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4321 foaf:firstname "David Brooks" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Wales" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4322 foaf:firstname "Leon Clarke" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 24 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4325 foaf:firstname "Ricky Holmes" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4359 foaf:firstname "Oliver McBurnie" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a4363 foaf:firstname "David Martin" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number 25 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a43924 foaf:firstname "Ralph Hasenhüttl" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Austria" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a4393 foaf:firstname "Lloyd Kelly" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 26 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4425 foaf:firstname "John Egan" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 12 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4427 foaf:firstname "Chris Mepham" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Wales" ;
+    foot:number 33 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4443 foaf:firstname "Neal Maupay" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "France" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a46 foaf:firstname "Jesús Vallejo" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "Spain" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4870 foaf:firstname "Dan Burn" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number 33 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a4908 foaf:firstname "Stephen Henderson" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 19 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a4955 foaf:firstname "Sean Longstaff" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 36 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a5039 foaf:firstname "Mihai Dobre" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Romania" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a5217 foaf:firstname "Ryan Cooney" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a5364 foaf:firstname "Kean Bryan" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a5457 foaf:firstname "Dean Henderson" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a5487 foaf:firstname "Ben Godfrey" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "England" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a5530 foaf:firstname "Aaron Ramsdale" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 12 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a5605 foaf:firstname "Akin Famewo" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "England" ;
+    foot:number 43 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a5613 foaf:firstname "James Justin" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a5620 foaf:firstname "Jack Stacey" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 17 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a563 a "team" ;
+    foaf:firstname "West Ham United FC" ;
+    foot:address "Green Street, Upton Park London E13 9AZ" ;
+    foot:clubcolors "Claret / Sky Blue" ;
+    foot:founded 1895 ;
+    foot:nick "WHU" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.whufc.com" .
+
+foot:a56628 foaf:firstname "Reece James" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number 24 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a56840 foaf:firstname "Steven Alzate" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Colombia" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a56946 foaf:firstname "Quique Sánchez Flores" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Spain" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a57 a "team" ;
+    foaf:firstname "Arsenal FC" ;
+    foot:address "75 Drayton Park London N5 1BU" ;
+    foot:clubcolors "Red / White" ;
+    foot:founded 1886 ;
+    foot:nick "ARS" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.arsenal.com" .
+
+foot:a58 a "team" ;
+    foaf:firstname "Aston Villa FC" ;
+    foot:address "Villa Park Birmingham B6 6HE" ;
+    foot:clubcolors "Claret / Sky Blue" ;
+    foot:founded 1872 ;
+    foot:nick "AST" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.avfc.co.uk" .
+
+foot:a58140 foaf:firstname "Bojan Radulovic" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Serbia" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a600 foaf:firstname "Mattéo Guendouzi" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "France" ;
+    foot:number 29 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a61 a "team" ;
+    foaf:firstname "Chelsea FC" ;
+    foot:address "Fulham Road London SW6 1HS" ;
+    foot:clubcolors "Royal Blue / White" ;
+    foot:founded 1905 ;
+    foot:nick "CHE" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.chelseafc.com" .
+
+foot:a61450 foaf:firstname "Martinelli" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 35 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a62 a "team" ;
+    foaf:firstname "Everton FC" ;
+    foot:address "Goodison Park Liverpool L4 4EL" ;
+    foot:clubcolors "Blue / White" ;
+    foot:founded 1878 ;
+    foot:nick "EVE" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.evertonfc.com" .
+
+foot:a6296 foaf:firstname "Adam Phillips" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a6317 foaf:firstname "Ezri Konsa" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a64 a "team" ;
+    foaf:firstname "Liverpool FC" ;
+    foot:address "Anfield Road Liverpool L4 OTH" ;
+    foot:clubcolors "Red / White" ;
+    foot:founded 1892 ;
+    foot:nick "LIV" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.liverpoolfc.tv" .
+
+foot:a6489 foaf:firstname "Ralf Fährmann" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 21 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a65 a "team" ;
+    foaf:firstname "Manchester City FC",
+        "Mateo Kovačić" ;
+    foot:address "SportCity Manchester M11 3FF" ;
+    foot:clubcolors "Sky Blue / White" ;
+    foot:founded 1880 ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Croatia" ;
+    foot:nick "MCI" ;
+    foot:number 17 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" ;
+    foot:timede "Premier_League" ;
+    foot:website "https://www.mancity.com" .
+
+foot:a6500 foaf:firstname "Max Meyer" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Germany" ;
+    foot:number 7 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a66 a "team" ;
+    foaf:firstname "Manchester United FC" ;
+    foot:address "Sir Matt Busby Way Manchester M16 0RA" ;
+    foot:clubcolors "Red / White" ;
+    foot:founded 1878 ;
+    foot:nick "MUN" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.manutd.com" .
+
+foot:a6623 foaf:firstname "Jean-Philippe Gbamin" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Côte d’Ivoire" ;
+    foot:number 25 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a6627 foaf:firstname "Yoshinori Mutō" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Japan" ;
+    foot:number 13 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a6655 foaf:firstname "Kevin Danso" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Austria" ;
+    foot:number 38 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a6671 foaf:firstname "Jannik Vestergaard" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Denmark" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a67 a "team" ;
+    foaf:firstname "Newcastle United FC" ;
+    foot:address "Sports Direct Arena Newcastle upon Tyne NE1 4ST" ;
+    foot:clubcolors "Black / White" ;
+    foot:founded 1881 ;
+    foot:nick "NEW" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.nufc.co.uk" .
+
+foot:a6708 foaf:firstname "Jetro Willems" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a6721 foaf:firstname "Sébastien Haller" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "France" ;
+    foot:number 22 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a68 a "team" ;
+    foaf:firstname "Dani Ceballos",
+        "Norwich City FC" ;
+    foot:address "Carrow Road Norwich NR1 1JE" ;
+    foot:clubcolors "Yellow / Green" ;
+    foot:founded 1902 ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Spain" ;
+    foot:nick "NOR" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.canaries.co.uk" .
+
+foot:a6843 foaf:firstname "Ørjan Nyland" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Norway" ;
+    foot:number 25 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a73 a "team" ;
+    foaf:firstname "Tottenham Hotspur FC" ;
+    foot:address "Bill Nicholson Way, 748 High Road London N17 OAP" ;
+    foot:clubcolors "Navy Blue / White" ;
+    foot:founded 1882 ;
+    foot:nick "TOT" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.tottenhamhotspur.com" .
+
+foot:a7397 foaf:firstname "Pedro Chirivella" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Spain" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7450 foaf:firstname "Marco van Ginkel" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7599 foaf:firstname "Mason Mount" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number 19 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a76 a "team" ;
+    foaf:firstname "Wolverhampton Wanderers FC" ;
+    foot:address "Waterloo Road Wolverhampton WV1 4QR" ;
+    foot:clubcolors "Black / Gold" ;
+    foot:founded 1877 ;
+    foot:nick "WOL" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.wolves.co.uk" .
+
+foot:a7646 foaf:firstname "Angeliño" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number 12 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a76753 foaf:firstname "Herbie Kane" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a76861 foaf:firstname "Miguel Almirón" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Paraguay" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7720 foaf:firstname "Sepp van den Berg" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7779 foaf:firstname "Matt Macey" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7783 foaf:firstname "Héctor Bellerín" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Spain" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7784 foaf:firstname "Rob Holding" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number 16 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7785 foaf:firstname "Shkodran Mustafi" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Germany" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7786 foaf:firstname "Sead Kolašinac" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Bosnia and Herzegovina" ;
+    foot:number 31 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7787 foaf:firstname "Calum Chambers" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number 21 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7789 foaf:firstname "Konstantinos Mavropanos" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Greece" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7792 foaf:firstname "Ainsley Maitland-Niles" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7797 foaf:firstname "Alexandre Lacazette" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "France" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7798 foaf:firstname "Joe Willock" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number 28 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7799 foaf:firstname "Reiss Nelson" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number 24 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7801 foaf:firstname "Pierre-Emerick Aubameyang" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Gabon" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7804 foaf:firstname "Gary Cahill" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number 24 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7805 foaf:firstname "David Luiz" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 23 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7809 foaf:firstname "Emerson" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Italy" ;
+    foot:number 33 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7814 foaf:firstname "Danny Drinkwater" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7816 foaf:firstname "Callum Hudson-Odoi" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7817 foaf:firstname "Ross Barkley" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7818 foaf:firstname "Pedro" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "Spain" ;
+    foot:number 11 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7822 foaf:firstname "Maarten Stekelenburg" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 22 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7824 foaf:firstname "Leighton Baines" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7825 foaf:firstname "Phil Jagielka" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7826 foaf:firstname "Mason Holgate" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7829 foaf:firstname "Michael Keane" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7830 foaf:firstname "Cuco Martina" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Curaçao" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7835 foaf:firstname "James McCarthy" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 22 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7836 foaf:firstname "Séamus Coleman" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 23 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7837 foaf:firstname "Tom Davies" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 26 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7839 foaf:firstname "Dominic Calvert-Lewin" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 9 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7840 foaf:firstname "Morgan Schneiderlin" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "France" ;
+    foot:number 18 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7842 foaf:firstname "Gylfi Þór Sigurðsson" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Iceland" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7844 foaf:firstname "Beni Baningime" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Congo DR" ;
+    foot:number 34 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7848 foaf:firstname "Anthony Gordon" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 42 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7854 foaf:firstname "Cenk Tosun" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Turkey" ;
+    foot:number 14 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7855 foaf:firstname "Theo Walcott" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 11 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7857 foaf:firstname "Danny Ward" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Wales" ;
+    foot:number 12 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7859 foaf:firstname "Dejan Lovren" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Croatia" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7861 foaf:firstname "James Milner" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 7 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7862 foaf:firstname "Joe Gomez" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 12 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7863 foaf:firstname "Nathaniel Clyne" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7865 foaf:firstname "Joël Matip" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Cameroon" ;
+    foot:number 32 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7867 foaf:firstname "Trent Alexander-Arnold" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 66 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7868 foaf:firstname "Andrew Robertson" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 26 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7869 foaf:firstname "Virgil van Dijk" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7871 foaf:firstname "Georginio Wijnaldum" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 5 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7873 foaf:firstname "Curtis Jones" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7875 foaf:firstname "Danny Ings" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7877 foaf:firstname "Rhian Brewster" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 24 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7878 foaf:firstname "Dominic Solanke" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7879 foaf:firstname "Claudio Bravo" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Chile" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7882 foaf:firstname "Benjamin Mendy" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "France" ;
+    foot:number 22 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7884 foaf:firstname "Aymeric Laporte" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "France" ;
+    foot:number 14 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7886 foaf:firstname "Fabian Delph" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7888 foaf:firstname "Phil Foden" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "England" ;
+    foot:number 47 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7889 foaf:firstname "Oleksandr Zinchenko" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Ukraine" ;
+    foot:number 11 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7890 foaf:firstname "Tom Dele-Bashiru" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Nigeria" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7891 foaf:firstname "Sergio Agüero" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7897 foaf:firstname "Phil Jones" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7898 foaf:firstname "Luke Shaw" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 23 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7901 foaf:firstname "Eric Bailly" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Côte d’Ivoire" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7905 foaf:firstname "Scott McTominay" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 39 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7909 foaf:firstname "Mata" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Spain" ;
+    foot:number 8 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7910 foaf:firstname "Angel Gomes" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 28 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7912 foaf:firstname "Rob Elliot" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7913 foaf:firstname "Karl Darlow" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 26 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7914 foaf:firstname "Martin Dúbravka" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Slovakia" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7917 foaf:firstname "Paul Dummett" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Wales" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7919 foaf:firstname "Jamal Lascelles" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7922 foaf:firstname "Isaac Hayden" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 14 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7923 foaf:firstname "Ciaran Clark" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7924 foaf:firstname "DeAndre Yedlin" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "United States" ;
+    foot:number 22 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7925 foaf:firstname "Florian Lejeune" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "France" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7928 foaf:firstname "Javier Manquillo" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Spain" ;
+    foot:number 19 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7929 foaf:firstname "Jonjo Shelvey" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7930 foaf:firstname "Matt Ritchie" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 11 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7932 foaf:firstname "Christian Atsu" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Ghana" ;
+    foot:number 30 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7936 foaf:firstname "Ayoze Pérez" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number 17 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7937 foaf:firstname "Dwight Gayle" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 12 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7942 foaf:firstname "Lee Grant" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7944 foaf:firstname "Erik Pieters" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 23 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7948 foaf:firstname "Kurt Zouma" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "France" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7955 foaf:firstname "Xherdan Shaqiri" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number 23 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7968 foaf:firstname "Federico Fernández" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 18 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7974 foaf:firstname "Daniel James" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Wales" ;
+    foot:number 21 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a7984 foaf:firstname "Jordan Ayew" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Ghana" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7985 foaf:firstname "Tammy Abraham" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a7991 foaf:firstname "Michel Vorm" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 13 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7992 foaf:firstname "Alfie Whiteman" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 41 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7993 foaf:firstname "Paulo Gazzaniga" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 22 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a7994 foaf:firstname "Ben Davies" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Wales" ;
+    foot:number 33 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7995 foaf:firstname "Kyle Walker-Peters" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 16 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7996 foaf:firstname "Juan Foyth" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7997 foaf:firstname "Serge Aurier" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Côte d’Ivoire" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a7999 foaf:firstname "Harry Winks" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8000 foaf:firstname "Victor Wanyama" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Kenya" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8001 foaf:firstname "Moussa Sissoko" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "France" ;
+    foot:number 17 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8003 foaf:firstname "Lucas Moura" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 27 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8004 foaf:firstname "Harry Kane" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8005 foaf:firstname "Erik Lamela" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 11 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8009 foaf:firstname "Ben Foster" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 26 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8012 foaf:firstname "Craig Dawson" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8014 foaf:firstname "Jonny Evans" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Northern Ireland" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8032 foaf:firstname "Jay Rodriguez" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 19 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8035 foaf:firstname "Tom Heaton" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8036 foaf:firstname "Adam Legzdins" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8038 foaf:firstname "Benjamin Mee" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8040 foaf:firstname "Matthew Lowton" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8041 foaf:firstname "Kevin Long" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 28 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8042 foaf:firstname "Robbie Brady" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 12 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8043 foaf:firstname "Charlie Taylor" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8044 foaf:firstname "Phil Bardsley" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 26 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8049 foaf:firstname "Jeff Hendrick" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 13 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8050 foaf:firstname "Ashley Westwood" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 18 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8051 foaf:firstname "Jack Cork" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 4 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8052 foaf:firstname "Aaron Lennon" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 25 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8054 foaf:firstname "Ashley Barnes" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8057 foaf:firstname "Chris Wood" ;
+    foot:jogadorde "Burnley FC" ;
+    foot:nationality "New Zealand" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8060 foaf:firstname "Eldin Jakupovic" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8061 foaf:firstname "Wes Morgan" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Jamaica" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8064 foaf:firstname "Christian Fuchs" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Austria" ;
+    foot:number 28 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8065 foaf:firstname "Ben Chilwell" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8066 foaf:firstname "Daniel Amartey" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Ghana" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8069 foaf:firstname "Riyad Mahrez" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Algeria" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8070 foaf:firstname "Matty James" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8071 foaf:firstname "Marc Albrighton" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 11 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8072 foaf:firstname "Demarai Gray" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 7 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8075 foaf:firstname "Hamza Choudhury" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8076 foaf:firstname "Harvey Barnes" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a80765 foaf:firstname "Max Aarons" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8080 foaf:firstname "Alex McCarthy" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8082 foaf:firstname "Maya Yoshida" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Japan" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8083 foaf:firstname "Ryan Bertrand" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 21 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8085 foaf:firstname "Jack Stephens" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8086 foaf:firstname "Jan Bednarek" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Poland" ;
+    foot:number 35 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8088 foaf:firstname "James Ward-Prowse" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 16 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8091 foaf:firstname "Oriol Romeu" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Spain" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8092 foaf:firstname "Nathan Redmond" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number 22 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8093 foaf:firstname "Pierre Emile Højbjerg" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Denmark" ;
+    foot:number 23 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8095 foaf:firstname "Sam McQueen" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8098 foaf:firstname "Shane Long" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8102 foaf:firstname "Michael Obafemi" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 20 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8104 foaf:firstname "Heurelho Gomes" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8105 foaf:firstname "Daniel Bachmann" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Austria" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8107 foaf:firstname "Craig Cathcart" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Northern Ireland" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8108 foaf:firstname "Sebastian Prödl" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Austria" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8109 foaf:firstname "José Holebas" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Greece" ;
+    foot:number 25 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8111 foaf:firstname "Christian Kabasele" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 27 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8113 foaf:firstname "Daryl Janmaat" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8114 foaf:firstname "Adrian Mariappa" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Jamaica" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8118 foaf:firstname "Étienne Capoue" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "France" ;
+    foot:number 29 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8119 foaf:firstname "Abdoulaye Doucouré" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "France" ;
+    foot:number 16 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8120 foaf:firstname "Roberto Pereyra" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Argentina" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8122 foaf:firstname "Tom Cleverley" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8124 foaf:firstname "Will Hughes" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 19 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8125 foaf:firstname "Femenía Far" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Spain" ;
+    foot:number 21 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8126 foaf:firstname "Nathaniel Chalobah" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8127 foaf:firstname "Marvin Zeegelaar" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8130 foaf:firstname "Troy Deeney" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 9 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8133 foaf:firstname "Richarlison" ;
+    foot:jogadorde "Everton FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8134 foaf:firstname "Andre Gray" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "England" ;
+    foot:number 18 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8135 foaf:firstname "Gerard Deulofeu" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Spain" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8137 foaf:firstname "Wayne Hennessey" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Wales" ;
+    foot:number 13 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8138 foaf:firstname "Dion Curtis-Henry" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8141 foaf:firstname "Joel Ward" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8142 foaf:firstname "Scott Dann" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number 6 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8143 foaf:firstname "Martin Kelly" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number 34 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8144 foaf:firstname "James Tomkins" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8145 foaf:firstname "Jeffrey Schlupp" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Ghana" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8146 foaf:firstname "Patrick van Aanholt" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8147 foaf:firstname "Jaïro Riedewald" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 44 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8148 foaf:firstname "Timothy Fosu-Mensah" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8149 foaf:firstname "Mamadou Sakho" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "France" ;
+    foot:number 12 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8152 foaf:firstname "James McArthur" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Scotland" ;
+    foot:number 18 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8157 foaf:firstname "Andros Townsend" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8158 foaf:firstname "Aaron Wan-Bissaka" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "England" ;
+    foot:number 29 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8159 foaf:firstname "Ruben Loftus-Cheek" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8161 foaf:firstname "Nya Kirby" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8162 foaf:firstname "Wilfried Zaha" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Côte d’Ivoire" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8163 foaf:firstname "Connor Wickham" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number 21 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8164 foaf:firstname "Christian Benteke" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 17 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8165 foaf:firstname "Jason Lokilo" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "Belgium" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8184 foaf:firstname "Philip Billing" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Denmark" ;
+    foot:number 29 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8197 foaf:firstname "Adrián" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Spain" ;
+    foot:number 13 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8200 foaf:firstname "Winston Reid" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "New Zealand" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8201 foaf:firstname "Aaron Cresswell" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8202 foaf:firstname "Angelo Ogbonna" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Italy" ;
+    foot:number 21 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8203 foaf:firstname "Sam Byram" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "England" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8204 foaf:firstname "Arthur Masuaku" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Congo DR" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8205 foaf:firstname "Pablo Zabaleta" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Argentina" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8209 foaf:firstname "Mark Noble" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number 16 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8212 foaf:firstname "Michail Antonio" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number 30 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8213 foaf:firstname "Quina" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Portugal" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a82135 foaf:firstname "Mark Travers" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a82147 foaf:firstname "Bernard Ashley-Seal" ;
+    foot:jogadorde "Wolverhampton Wanderers FC" ;
+    foot:nationality "England" ;
+    foot:number 56 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8215 foaf:firstname "Declan Rice" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number 41 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a82153 foaf:firstname "Sam Woods" ;
+    foot:jogadorde "Crystal Palace FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8219 foaf:firstname "Andy Carroll" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "England" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8221 foaf:firstname "Nathan Holland" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8224 foaf:firstname "Ben Johnson" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8227 foaf:firstname "Artur Boruc" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Poland" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8231 foaf:firstname "Adam Smith" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 15 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8232 foaf:firstname "Simon Francis" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 2 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8233 foaf:firstname "Charlie Daniels" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 11 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8234 foaf:firstname "Steve Cook" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8235 foaf:firstname "Tyrone Mings" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "England" ;
+    foot:number 40 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8236 foaf:firstname "Jack Simpson" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 25 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8238 foaf:firstname "Corey Jordan" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8240 foaf:firstname "Nathan Aké" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Netherlands" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8242 foaf:firstname "Junior Stanislas" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8243 foaf:firstname "Dan Gosling" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 4 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a82448 foaf:firstname "Gonçalo Cardoso" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Portugal" ;
+    foot:number "None" ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8246 foaf:firstname "Andrew Surman" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 6 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8247 foaf:firstname "Ryan Fraser" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Scotland" ;
+    foot:number 24 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8251 foaf:firstname "Callum Wilson" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 13 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8252 foaf:firstname "Joshua King" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Norway" ;
+    foot:number 7 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8253 foaf:firstname "Lys Mousset" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "France" ;
+    foot:number 22 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8254 foaf:firstname "Jordon Ibe" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "England" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8258 foaf:firstname "Tim Krul" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 1 ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a8259 foaf:firstname "Lewis Dunk" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8261 foaf:firstname "Gaëtan Bong" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Cameroon" ;
+    foot:number 3 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8265 foaf:firstname "Shane Duffy" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8268 foaf:firstname "Dale Stephens" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number 6 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8269 foaf:firstname "Solomon March" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number 20 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8273 foaf:firstname "Pascal Groß" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Germany" ;
+    foot:number 13 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8275 foaf:firstname "Davy Pröpper" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 24 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8277 foaf:firstname "Ezequiel Schelotto" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Italy" ;
+    foot:number 21 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8286 foaf:firstname "Glenn Murray" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "England" ;
+    foot:number 17 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8287 foaf:firstname "Aaron Connolly" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number 44 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8296 foaf:firstname "Issa Diop" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "France" ;
+    foot:number 23 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8324 foaf:firstname "Frédéric Guilbert" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "France" ;
+    foot:number 24 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8394 foaf:firstname "Ibrahim Amadou" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "France" ;
+    foot:number 24 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8410 foaf:firstname "Yves Bissouma" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Mali" ;
+    foot:number 8 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8411 foaf:firstname "Anwar El Ghazi" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 21 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8412 foaf:firstname "Nicolas Pépé" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "Côte d’Ivoire" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8441 foaf:firstname "Nampalys Mendy" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "France" ;
+    foot:number 24 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8446 foaf:firstname "Allan Saint-Maximin" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "France" ;
+    foot:number 10 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8469 foaf:firstname "Tanguy Ndombèlé" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "France" ;
+    foot:number 28 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a85570 foaf:firstname "Emile Smith-Rowe" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8749 foaf:firstname "Fabinho" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8780 foaf:firstname "Dimitri Foulquier" ;
+    foot:jogadorde "Watford FC" ;
+    foot:nationality "Guadeloupe" ;
+    foot:number 36 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a88 foaf:firstname "Fabian Schär" ;
+    foot:jogadorde "Newcastle United FC" ;
+    foot:nationality "Switzerland" ;
+    foot:number 5 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a8885 foaf:firstname "Marvelous Nakamba" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Zimbabwe" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a8891 foaf:firstname "Wesley" ;
+    foot:jogadorde "Aston Villa FC" ;
+    foot:nationality "Brazil" ;
+    foot:number "None" ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a8984 foaf:firstname "Leandro Trossard" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Belgium" ;
+    foot:number 11 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a92051 foaf:firstname "Adrián Bernabé" ;
+    foot:jogadorde "Manchester City FC" ;
+    foot:nationality "Spain" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a92053 foaf:firstname "Harvey Elliot" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "England" ;
+    foot:number 67 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a9240 foaf:firstname "Moussa Djénepo" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "Mali" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a92863 foaf:firstname "Conor Coventry" ;
+    foot:jogadorde "West Ham United FC" ;
+    foot:nationality "Republic of Ireland" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a9344 foaf:firstname "Jürgen Klopp" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Germany" ;
+    foot:number "None" ;
+    foot:position "None" ;
+    foot:role "COACH" .
+
+foot:a9475 foaf:firstname "Çağlar Söyüncü" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Turkey" ;
+    foot:number 4 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a9491 foaf:firstname "Bartosz Kapustka" ;
+    foot:jogadorde "Leicester City FC" ;
+    foot:nationality "Poland" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a9540 foaf:firstname "Bernardo" ;
+    foot:jogadorde "Brighton & Hove Albion FC" ;
+    foot:nationality "Brazil" ;
+    foot:number 30 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a9547 foaf:firstname "Naby Keïta" ;
+    foot:jogadorde "Liverpool FC" ;
+    foot:nationality "Guinea" ;
+    foot:number "None" ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a9682 foaf:firstname "Michael Verrips" ;
+    foot:jogadorde "Sheffield United FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+
+foot:a96974 foaf:firstname "Oliver Skipp" ;
+    foot:jogadorde "Tottenham Hotspur FC" ;
+    foot:nationality "England" ;
+    foot:number 29 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a98483 foaf:firstname "Tahith Chong" ;
+    foot:jogadorde "Manchester United FC" ;
+    foot:nationality "Netherlands" ;
+    foot:number 44 ;
+    foot:position "Attacker" ;
+    foot:role "PLAYER" .
+
+foot:a9870 foaf:firstname "Arnaut Danjuma" ;
+    foot:jogadorde "AFC Bournemouth" ;
+    foot:nationality "Netherlands" ;
+    foot:number 14 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
+foot:a9960 foaf:firstname "Philip Heise" ;
+    foot:jogadorde "Norwich City FC" ;
+    foot:nationality "Germany" ;
+    foot:number 16 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a99799 foaf:firstname "Yan Valery" ;
+    foot:jogadorde "Southampton FC" ;
+    foot:nationality "France" ;
+    foot:number 43 ;
+    foot:position "Defender" ;
+    foot:role "PLAYER" .
+
+foot:a99813 foaf:firstname "Bukayo Saka" ;
+    foot:jogadorde "Arsenal FC" ;
+    foot:nationality "England" ;
+    foot:number 77 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" .
+
