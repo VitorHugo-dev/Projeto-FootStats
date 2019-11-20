@@ -96,7 +96,7 @@ def getCompetitionData(id):
 def graphGenerator(premierLeagueData, ligue1Data, bundesligaData,seriaAData,laLigaData):
     g = Graph()
     foot = Namespace("https://footstats.com.br/#")
-    dbpedia = Namespace("http://dbpedia.org/page/")
+
 # premire league
     g.add((foot.Competition, RDF.type, FOAF.Project))
     g.add((foot.a + str(premierLeagueData["ID"]), RDF.type, Literal("competition")))
@@ -224,7 +224,6 @@ def graphGenerator(premierLeagueData, ligue1Data, bundesligaData,seriaAData,laLi
             g.add((foot.a + str(p["ID"]), foot.number, Literal(p["NUMBER"])))
             g.add((foot.a + str(p["ID"]), foot.role, Literal(p["ROLE"])))
 
-    g.bind("dbpedia", dbpedia)
     g.bind("foot", foot)
     g.bind("foaf", FOAF)
     g.bind("dc", DC)
