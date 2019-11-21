@@ -1,0 +1,38 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <https://footstats.com.br/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+foot:Competition a foaf:Project .
+
+foot:a2021 a "competition" ;
+    dc:description "Premier League é uma liga profissional de futebol da Inglaterra e está no topo do sistema de ligas do futebol inglês, sendo a principal competição de futebol do país. Ela era patrocinada pelo Barclays Bank até 2016, motivo pelo qual era oficialmente chamada de Barclays Premier League. É disputada por vinte clubes no sistema de pontos corridos, em que no final de cada temporada os quatro melhores colocados participam da Liga dos Campeões da UEFA, e os três piores são rebaixados para a Football League Championship, dando lugar aos três melhores desta competição. Cada temporada decorre entre agosto e maio, tendo 38 rodadas com dez partidas cada, totalizando 380 partidas em toda a temporada. A maioria dos jogos são disputados durante o período da tarde nos sábados e domingos e algumas vezes durante a noite no meio da semana. A competição foi formada como FA Premier League em 20 de fevereiro de 1992, após a decisão dos clubes da Football League First Division de romperem com a Football League, originalmente fundada em 1888, para aumentarem suas receitas provenientes de direitos de televisão, que atualmente rendem um bilhão de libras por ano para transmissões domésticas, com a BSkyB e BT Group. A Premier League é a liga de futebol mais popular do mundo, transmitida por oitenta redes de televisão em mais de duzentos países. Na temporada 2013–14 a média de público da competição foi de 36 631, sendo a segunda mais alta em ligas de futebol profissional, atrás apenas da Bundesliga. A Premier League está em segundo lugar nos coeficientes de ligas da UEFA, baseados nos desempenhos em competições europeias ao longo dos últimos cinco anos. Desde 1888, 24 clubes foram coroados campeões do sistema de futebol inglês. Desde a criação da liga, em 1992, um total de 47 clubes já estiveram na Premier League, dos quais seis venceram o título: o Manchester United, o maior campeão com treze títulos, o Chelsea, com quatro títulos, o Arsenal, com três títulos e único clube a conquistar a Premier League de forma invicta, o Manchester City, com dois títulos, Blackburn Rovers e o atual campeão Leicester City , com uma conquista. Além dos títulos únicos das cidades de Blackburn e Leicester, apenas as cidades de Manchester (15) e Londres (7) festejaram o título." ;
+    dc:homepage "http://dbpedia.org/data/Premier_League.json" ;
+    foaf:firstname "Premier League" ;
+    foaf:nick "PL" ;
+    foot:location "England" .
+
+foot:a101077 foaf:firstname "Jamie Cumming" ;
+    foot:jogadorde "Chelsea FC" ;
+    foot:nationality "England" ;
+    foot:number "None" ;
+    foot:position "Goalkeeper" ;
+    foot:role "PLAYER" .
+	
+foot:a61 a "team" ;
+    foaf:firstname "Chelsea FC",
+        "Nolito" ;
+    foot:address "Fulham Road London SW6 1HS" ;
+    foot:clubcolors "Royal Blue / White" ;
+    foot:founded 1905 ;
+    foot:jogadorde "Sevilla FC" ;
+    foot:nationality "Spain" ;
+    foot:nick "CHE" ;
+    foot:number 8 ;
+    foot:position "Midfielder" ;
+    foot:role "PLAYER" ;
+    foot:timede "Premier_League" ;
+    foot:website "http://www.chelseafc.com" .
