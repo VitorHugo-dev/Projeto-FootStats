@@ -43,7 +43,7 @@ def getCompetitionData(id):
 
         competitionData = {
             "ID": jsonData["id"],
-            "NAME": jsonData["name"],
+            "NAME_COMPETITION": jsonData["name"],
             "CODE": jsonData["code"],
             "LOCATION": jsonData["area"]["name"]
         }
@@ -58,7 +58,7 @@ def getCompetitionData(id):
             for team in jsonTeamData["teams"]:
                 t = {
                     "ID": team["id"],
-                    "NAME": team["name"],
+                    "NAME_TEAM": team["name"],
                     "SHORTNAME": team["tla"],
                     "ADDRESS": team["address"],
                     "WEBSITE": team["website"],
@@ -74,7 +74,7 @@ def getCompetitionData(id):
                     for squad in jsonsquadData["squad"]:
                         s = {
                             "ID": squad["id"],
-                            "NAME": squad["name"],
+                            "NAME_PLAYER": squad["name"],
                             "POSITION": squad["position"],
                             "NATIONALITY": squad["nationality"],
                             "NUMBER": squad["shirtNumber"],
@@ -99,130 +99,39 @@ def graphGenerator(premierLeagueData, ligue1Data, bundesligaData,seriaAData,laLi
 
 # premire league
     g.add((foot.Competition, RDF.type, FOAF.Project))
-    g.add((foot.a + str(premierLeagueData["ID"]), RDF.type, Literal("competition")))
-    g.add((foot.a + str(premierLeagueData["ID"]), DC.description, Literal(premierLeagueData["DESC"][1])))
-    g.add((foot.a + str(premierLeagueData["ID"]), DC.homepage, Literal(premierLeagueData["DESC"][2])))
-    g.add((foot.a + str(premierLeagueData["ID"]), FOAF.firstname, Literal(premierLeagueData["NAME"])))
-    g.add((foot.a + str(premierLeagueData["ID"]), FOAF.nick, Literal(premierLeagueData["CODE"])))
-    g.add((foot.a + str(premierLeagueData["ID"]), foot.location, Literal(premierLeagueData["LOCATION"])))
+    g.add((foot.a + str(premierLeagueData["ID"]) + str("CP"), RDF.type, Literal("competition")))
+    g.add((foot.a + str(premierLeagueData["ID"]) + str("CP"), DC.description, Literal(premierLeagueData["DESC"][1])))
+    g.add((foot.a + str(premierLeagueData["ID"]) + str("CP"), DC.homepage, Literal(premierLeagueData["DESC"][2])))
+    g.add((foot.a + str(premierLeagueData["ID"]) + str("CP"), FOAF.firstname, Literal(premierLeagueData["NAME_COMPETITION"])))
+    g.add((foot.a + str(premierLeagueData["ID"]) + str("CP"), FOAF.nick, Literal(premierLeagueData["CODE"])))
+    g.add((foot.a + str(premierLeagueData["ID"]) + str("CP"), foot.location, Literal(premierLeagueData["LOCATION"])))
     for x in premierLeagueData["TEAMS"]:
-        g.add((foot.a + str(x["ID"]), RDF.type, Literal("team")))
-        g.add((foot.a + str(x["ID"]), foot.timede, Literal(premierLeagueData["DESC"][0])))
-        g.add((foot.a + str(x["ID"]), FOAF.firstname,Literal(x["NAME"])))
-        g.add((foot.a + str(x["ID"]), foot.nick, Literal(x["SHORTNAME"])))
-        g.add((foot.a + str(x["ID"]), foot.address, Literal(x["ADDRESS"])))
-        g.add((foot.a + str(x["ID"]), foot.website, Literal(x["WEBSITE"])))
-        g.add((foot.a + str(x["ID"]), foot.founded, Literal(x["FOUNDED"])))
-        g.add((foot.a + str(x["ID"]), foot.clubcolors, Literal(x["CLUBCOLORS"])))
+        g.add((foot.a + str(x["ID"]) + str("TP"), RDF.type, Literal("team")))
+        g.add((foot.a + str(x["ID"]) + str("TP"), foot.timede, Literal(premierLeagueData["DESC"][0])))
+        g.add((foot.a + str(x["ID"]) + str("TP"), FOAF.firstname,Literal(x["NAME_TEAM"])))
+        g.add((foot.a + str(x["ID"]) + str("TP"), foot.nick, Literal(x["SHORTNAME"])))
+        g.add((foot.a + str(x["ID"]) + str("TP"), foot.address, Literal(x["ADDRESS"])))
+        g.add((foot.a + str(x["ID"]) + str("TP"), foot.website, Literal(x["WEBSITE"])))
+        g.add((foot.a + str(x["ID"]) + str("TP"), foot.founded, Literal(x["FOUNDED"])))
+        g.add((foot.a + str(x["ID"]) + str("TP"), foot.clubcolors, Literal(x["CLUBCOLORS"])))
         for p in x["PLAYERS"]:
-            g.add((foot.a + str(p["ID"]), foot.jogadorde, Literal(x["NAME"])))
-            g.add((foot.a + str(p["ID"]), FOAF.firstname, Literal(p["NAME"])))
-            g.add((foot.a + str(p["ID"]), foot.position, Literal(p["POSITION"])))
-            g.add((foot.a + str(p["ID"]), foot.nationality, Literal(p["NATIONALITY"])))
-            g.add((foot.a + str(p["ID"]), foot.number, Literal(p["NUMBER"])))
-            g.add((foot.a + str(p["ID"]), foot.role, Literal(p["ROLE"])))
+            g.add((foot.a + str(p["ID"]) + str("JP"), foot.jogadorde, Literal(x["NAME_TEAM"])))
+            g.add((foot.a + str(p["ID"]) + str("JP"), FOAF.firstname, Literal(p["NAME_PLAYER"])))
+            g.add((foot.a + str(p["ID"]) + str("JP"), foot.position, Literal(p["POSITION"])))
+            g.add((foot.a + str(p["ID"]) + str("JP"), foot.nationality, Literal(p["NATIONALITY"])))
+            g.add((foot.a + str(p["ID"]) + str("JP"), foot.number, Literal(p["NUMBER"])))
+            g.add((foot.a + str(p["ID"]) + str("JP"), foot.role, Literal(p["ROLE"])))
 
 
-    #la liga
-    g.add((foot.Competition, RDF.type, FOAF.Project))
-    g.add((foot.a + str(laLigaData["ID"]), RDF.type, Literal("competition")))
-    g.add((foot.a + str(laLigaData["ID"]), DC.description, Literal(laLigaData["DESC"][1])))
-    g.add((foot.a + str(laLigaData["ID"]), DC.homepage, Literal(laLigaData["DESC"][2])))
-    g.add((foot.a + str(laLigaData["ID"]), FOAF.firstname, Literal(laLigaData["NAME"])))
-    g.add((foot.a + str(laLigaData["ID"]), FOAF.nick, Literal(laLigaData["CODE"])))
-    g.add((foot.a + str(laLigaData["ID"]), foot.location, Literal(laLigaData["LOCATION"])))
-    for x in laLigaData["TEAMS"]:
-        g.add((foot.a + str(x["ID"]), RDF.type, Literal("team")))
-        g.add((foot.a + str(x["ID"]), foot.timede, Literal(laLigaData["DESC"][0])))
-        g.add((foot.a + str(x["ID"]), FOAF.firstname,Literal(x["NAME"])))
-        g.add((foot.a + str(x["ID"]), FOAF.nick, Literal(x["SHORTNAME"])))
-        g.add((foot.a + str(x["ID"]), foot.address, Literal(x["ADDRESS"])))
-        g.add((foot.a + str(x["ID"]), foot.website, Literal(x["WEBSITE"])))
-        g.add((foot.a + str(x["ID"]), foot.founded, Literal(x["FOUNDED"])))
-        g.add((foot.a + str(x["ID"]), foot.clubcolors, Literal(x["CLUBCOLORS"])))
-        for p in x["PLAYERS"]:
-            g.add((foot.a + str(p["ID"]), foot.jogadorde, Literal(x["NAME"])))
-            g.add((foot.a + str(p["ID"]), FOAF.firstname, Literal(p["NAME"])))
-            g.add((foot.a + str(p["ID"]), foot.position, Literal(p["POSITION"])))
-            g.add((foot.a + str(p["ID"]), foot.nationality, Literal(p["NATIONALITY"])))
-            g.add((foot.a + str(p["ID"]), foot.number, Literal(p["NUMBER"])))
-            g.add((foot.a + str(p["ID"]), foot.role, Literal(p["ROLE"])))
 
-    # bundesliga
-    g.add((foot.Competition, RDF.type, FOAF.Project))
-    g.add((foot.a + str(bundesligaData["ID"]), RDF.type, Literal("competition")))
-    g.add((foot.a + str(bundesligaData["ID"]), DC.description, Literal(bundesligaData["DESC"][1])))
-    g.add((foot.a + str(bundesligaData["ID"]), DC.homepage, Literal(bundesligaData["DESC"][2])))
-    g.add((foot.a + str(bundesligaData["ID"]), FOAF.firstname, Literal(bundesligaData["NAME"])))
-    g.add((foot.a + str(bundesligaData["ID"]), FOAF.nick, Literal(bundesligaData["CODE"])))
-    g.add((foot.a + str(bundesligaData["ID"]), foot.location, Literal(bundesligaData["LOCATION"])))
-    for x in bundesligaData["TEAMS"]:
-        g.add((foot.a + str(x["ID"]), RDF.type, Literal("team")))
-        g.add((foot.a + str(x["ID"]), foot.timede, Literal(bundesligaData["DESC"][0])))
-        g.add((foot.a + str(x["ID"]), FOAF.firstname, Literal(x["NAME"])))
-        g.add((foot.a + str(x["ID"]), FOAF.nick, Literal(x["SHORTNAME"])))
-        g.add((foot.a + str(x["ID"]), foot.address, Literal(x["ADDRESS"])))
-        g.add((foot.a + str(x["ID"]), foot.website, Literal(x["WEBSITE"])))
-        g.add((foot.a + str(x["ID"]), foot.founded, Literal(x["FOUNDED"])))
-        g.add((foot.a + str(x["ID"]), foot.clubcolors, Literal(x["CLUBCOLORS"])))
-        for p in x["PLAYERS"]:
-            g.add((foot.a + str(p["ID"]), foot.jogadorde, Literal(x["NAME"])))
-            g.add((foot.a + str(p["ID"]), FOAF.firstname, Literal(p["NAME"])))
-            g.add((foot.a + str(p["ID"]), foot.position, Literal(p["POSITION"])))
-            g.add((foot.a + str(p["ID"]), foot.nationality, Literal(p["NATIONALITY"])))
-            g.add((foot.a + str(p["ID"]), foot.number, Literal(p["NUMBER"])))
-            g.add((foot.a + str(p["ID"]), foot.role, Literal(p["ROLE"])))
+    mountLaLiga(foot, g, laLigaData)
 
+    mountBundesliga(bundesligaData, foot, g)
 
-    # ligue 1
-    g.add((foot.Competition, RDF.type, FOAF.Project))
-    g.add((foot.a + str(ligue1Data["ID"]), RDF.type, Literal("competition")))
-    g.add((foot.a + str(ligue1Data["ID"]), DC.description, Literal(ligue1Data["DESC"][1])))
-    g.add((foot.a + str(ligue1Data["ID"]), DC.homepage, Literal(ligue1Data["DESC"][2])))
-    g.add((foot.a + str(ligue1Data["ID"]), FOAF.firstname, Literal(ligue1Data["NAME"])))
-    g.add((foot.a + str(ligue1Data["ID"]), FOAF.nick, Literal(ligue1Data["CODE"])))
-    g.add((foot.a + str(ligue1Data["ID"]), foot.location, Literal(ligue1Data["LOCATION"])))
-    for x in ligue1Data["TEAMS"]:
-        g.add((foot.a + str(x["ID"]), RDF.type, Literal("team")))
-        g.add((foot.a + str(x["ID"]), foot.timede, Literal(ligue1Data["DESC"][0])))
-        g.add((foot.a + str(x["ID"]), FOAF.firstname, Literal(x["NAME"])))
-        g.add((foot.a + str(x["ID"]), FOAF.nick, Literal(x["SHORTNAME"])))
-        g.add((foot.a + str(x["ID"]), foot.address, Literal(x["ADDRESS"])))
-        g.add((foot.a + str(x["ID"]), foot.website, Literal(x["WEBSITE"])))
-        g.add((foot.a + str(x["ID"]), foot.founded, Literal(x["FOUNDED"])))
-        g.add((foot.a + str(x["ID"]), foot.clubcolors, Literal(x["CLUBCOLORS"])))
-        for p in x["PLAYERS"]:
-            g.add((foot.a + str(p["ID"]), foot.jogadorde, Literal(x["NAME"])))
-            g.add((foot.a + str(p["ID"]), FOAF.firstname, Literal(p["NAME"])))
-            g.add((foot.a + str(p["ID"]), foot.position, Literal(p["POSITION"])))
-            g.add((foot.a + str(p["ID"]), foot.nationality, Literal(p["NATIONALITY"])))
-            g.add((foot.a + str(p["ID"]), foot.number, Literal(p["NUMBER"])))
-            g.add((foot.a + str(p["ID"]), foot.role, Literal(p["ROLE"])))
+    mountLigue1(foot, g, ligue1Data)
 
-    # serie A
-    g.add((foot.Competition, RDF.type, FOAF.Project))
-    g.add((foot.a + str(seriaAData["ID"]), RDF.type, Literal("competition")))
-    g.add((foot.a + str(seriaAData["ID"]), DC.description, Literal(seriaAData["DESC"][1])))
-    g.add((foot.a + str(seriaAData["ID"]), DC.homepage, Literal(seriaAData["DESC"][2])))
-    g.add((foot.a + str(seriaAData["ID"]), FOAF.firstname, Literal(seriaAData["NAME"])))
-    g.add((foot.a + str(seriaAData["ID"]), FOAF.nick, Literal(seriaAData["CODE"])))
-    g.add((foot.a + str(seriaAData["ID"]), foot.location, Literal(seriaAData["LOCATION"])))
-    for x in seriaAData["TEAMS"]:
-        g.add((foot.a + str(x["ID"]), RDF.type, Literal("team")))
-        g.add((foot.a + str(x["ID"]), foot.timede, Literal(seriaAData["DESC"][0])))
-        g.add((foot.a + str(x["ID"]), FOAF.firstname, Literal(x["NAME"])))
-        g.add((foot.a + str(x["ID"]), FOAF.nick, Literal(x["SHORTNAME"])))
-        g.add((foot.a + str(x["ID"]), foot.address, Literal(x["ADDRESS"])))
-        g.add((foot.a + str(x["ID"]), foot.website, Literal(x["WEBSITE"])))
-        g.add((foot.a + str(x["ID"]), foot.founded, Literal(x["FOUNDED"])))
-        g.add((foot.a + str(x["ID"]), foot.clubcolors, Literal(x["CLUBCOLORS"])))
-        for p in x["PLAYERS"]:
-            g.add((foot.a + str(p["ID"]), foot.jogadorde, Literal(x["NAME"])))
-            g.add((foot.a + str(p["ID"]), FOAF.firstname, Literal(p["NAME"])))
-            g.add((foot.a + str(p["ID"]), foot.position, Literal(p["POSITION"])))
-            g.add((foot.a + str(p["ID"]), foot.nationality, Literal(p["NATIONALITY"])))
-            g.add((foot.a + str(p["ID"]), foot.number, Literal(p["NUMBER"])))
-            g.add((foot.a + str(p["ID"]), foot.role, Literal(p["ROLE"])))
+    mountSerieA(foot, g, seriaAData)
+
 
     g.bind("foot", foot)
     g.bind("foaf", FOAF)
@@ -234,6 +143,115 @@ def graphGenerator(premierLeagueData, ligue1Data, bundesligaData,seriaAData,laLi
 
     except Exception as e:
         print("\nError, caused by: " + str(e))
+
+
+def mountSerieA(foot, g, seriaAData):
+    # serie A
+    g.add((foot.Competition, RDF.type, FOAF.Project))
+    g.add((foot.a + str(seriaAData["ID"]) + str("CS"), RDF.type, Literal("competition")))
+    g.add((foot.a + str(seriaAData["ID"]) + str("CS"), DC.description, Literal(seriaAData["DESC"][1])))
+    g.add((foot.a + str(seriaAData["ID"]) + str("CS"), DC.homepage, Literal(seriaAData["DESC"][2])))
+    g.add((foot.a + str(seriaAData["ID"]) + str("CS"), FOAF.firstname, Literal(seriaAData["NAME_COMPETITION"])))
+    g.add((foot.a + str(seriaAData["ID"])+ str("CS"), FOAF.nick, Literal(seriaAData["CODE"])))
+    g.add((foot.a + str(seriaAData["ID"]) + str("CS"), foot.location, Literal(seriaAData["LOCATION"])))
+    for x in seriaAData["TEAMS"]:
+        g.add((foot.a + str(x["ID"]) + str("TS"), RDF.type, Literal("team")))
+        g.add((foot.a + str(x["ID"]) + str("TS"), foot.timede, Literal(seriaAData["DESC"][0])))
+        g.add((foot.a + str(x["ID"]) + str("TS"), FOAF.firstname, Literal(x["NAME_TEAM"])))
+        g.add((foot.a + str(x["ID"]) + str("TS"), FOAF.nick, Literal(x["SHORTNAME"])))
+        g.add((foot.a + str(x["ID"]) + str("TS"), foot.address, Literal(x["ADDRESS"])))
+        g.add((foot.a + str(x["ID"]) + str("TS"), foot.website, Literal(x["WEBSITE"])))
+        g.add((foot.a + str(x["ID"]) + str("TS"), foot.founded, Literal(x["FOUNDED"])))
+        g.add((foot.a + str(x["ID"]) + str("TS"), foot.clubcolors, Literal(x["CLUBCOLORS"])))
+        for p in x["PLAYERS"]:
+            g.add((foot.a + str(p["ID"]) + str("PS"), foot.jogadorde, Literal(x["NAME_TEAM"])))
+            g.add((foot.a + str(p["ID"]) + str("PS"), FOAF.firstname, Literal(p["NAME_PLAYER"])))
+            g.add((foot.a + str(p["ID"]) + str("PS"), foot.position, Literal(p["POSITION"])))
+            g.add((foot.a + str(p["ID"]) + str("PS"), foot.nationality, Literal(p["NATIONALITY"])))
+            g.add((foot.a + str(p["ID"]) + str("PS"), foot.number, Literal(p["NUMBER"])))
+            g.add((foot.a + str(p["ID"]) + str("PS"), foot.role, Literal(p["ROLE"])))
+
+
+def mountBundesliga(bundesligaData, foot, g):
+    # bundesliga
+    g.add((foot.Competition, RDF.type, FOAF.Project))
+    g.add((foot.a + str(bundesligaData["ID"]) + str("CB"), RDF.type, Literal("competition")))
+    g.add((foot.a + str(bundesligaData["ID"]) + str("CB"), DC.description, Literal(bundesligaData["DESC"][1])))
+    g.add((foot.a + str(bundesligaData["ID"]) + str("CB"), DC.homepage, Literal(bundesligaData["DESC"][2])))
+    g.add((foot.a + str(bundesligaData["ID"]) + str("CB"), FOAF.firstname, Literal(bundesligaData["NAME_COMPETITION"])))
+    g.add((foot.a + str(bundesligaData["ID"]) + str("CB"), FOAF.nick, Literal(bundesligaData["CODE"])))
+    g.add((foot.a + str(bundesligaData["ID"]) + str("CB"), foot.location, Literal(bundesligaData["LOCATION"])))
+    for x in bundesligaData["TEAMS"]:
+        g.add((foot.a + str(x["ID"]) + str("TB"), RDF.type, Literal("team")))
+        g.add((foot.a + str(x["ID"]) + str("TB"), foot.timede, Literal(bundesligaData["DESC"][0])))
+        g.add((foot.a + str(x["ID"]) + str("TB"), FOAF.firstname, Literal(x["NAME_TEAM"])))
+        g.add((foot.a + str(x["ID"]) + str("TB"), FOAF.nick, Literal(x["SHORTNAME"])))
+        g.add((foot.a + str(x["ID"]) + str("TB"), foot.address, Literal(x["ADDRESS"])))
+        g.add((foot.a + str(x["ID"]) + str("TB"), foot.website, Literal(x["WEBSITE"])))
+        g.add((foot.a + str(x["ID"]) + str("TB"), foot.founded, Literal(x["FOUNDED"])))
+        g.add((foot.a + str(x["ID"]) + str("TB"), foot.clubcolors, Literal(x["CLUBCOLORS"])))
+        for p in x["PLAYERS"]:
+            g.add((foot.a + str(p["ID"]) + str("PB"), foot.jogadorde, Literal(x["NAME_TEAM"])))
+            g.add((foot.a + str(p["ID"]) + str("PB"), FOAF.firstname, Literal(p["NAME_PLAYER"])))
+            g.add((foot.a + str(p["ID"]) + str("PB"), foot.position, Literal(p["POSITION"])))
+            g.add((foot.a + str(p["ID"]) + str("PB"), foot.nationality, Literal(p["NATIONALITY"])))
+            g.add((foot.a + str(p["ID"]) + str("PB"), foot.number, Literal(p["NUMBER"])))
+            g.add((foot.a + str(p["ID"]) + str("PB"), foot.role, Literal(p["ROLE"])))
+
+
+def mountLigue1(foot, g, ligue1Data):
+    # ligue 1
+    g.add((foot.Competition, RDF.type, FOAF.Project))
+    g.add((foot.a + str(ligue1Data["ID"]) + str("CL1"), RDF.type, Literal("competition")))
+    g.add((foot.a + str(ligue1Data["ID"]) + str("CL1"), DC.description, Literal(ligue1Data["DESC"][1])))
+    g.add((foot.a + str(ligue1Data["ID"]) + str("CL1"), DC.homepage, Literal(ligue1Data["DESC"][2])))
+    g.add((foot.a + str(ligue1Data["ID"]) + str("CL1"), FOAF.firstname, Literal(ligue1Data["NAME_COMPETITION"])))
+    g.add((foot.a + str(ligue1Data["ID"]) + str("CL1"), FOAF.nick, Literal(ligue1Data["CODE"])))
+    g.add((foot.a + str(ligue1Data["ID"]) + str("CL1"), foot.location, Literal(ligue1Data["LOCATION"])))
+    for x in ligue1Data["TEAMS"]:
+        g.add((foot.a + str(x["ID"]) + str("TL1"), RDF.type, Literal("team")))
+        g.add((foot.a + str(x["ID"]) + str("TL1"), foot.timede, Literal(ligue1Data["DESC"][0])))
+        g.add((foot.a + str(x["ID"]) + str("TL1"), FOAF.firstname, Literal(x["NAME_TEAM"])))
+        g.add((foot.a + str(x["ID"]) + str("TL1"), FOAF.nick, Literal(x["SHORTNAME"])))
+        g.add((foot.a + str(x["ID"]) + str("TL1"), foot.address, Literal(x["ADDRESS"])))
+        g.add((foot.a + str(x["ID"]) + str("TL1"), foot.website, Literal(x["WEBSITE"])))
+        g.add((foot.a + str(x["ID"]) + str("TL1"), foot.founded, Literal(x["FOUNDED"])))
+        g.add((foot.a + str(x["ID"]) + str("TL1"), foot.clubcolors, Literal(x["CLUBCOLORS"])))
+        for p in x["PLAYERS"]:
+            g.add((foot.a + str(p["ID"]) + str("PL1"), foot.jogadorde, Literal(x["NAME_TEAM"])))
+            g.add((foot.a + str(p["ID"]) + str("PL1"), FOAF.firstname, Literal(p["NAME_PLAYER"])))
+            g.add((foot.a + str(p["ID"]) + str("PL1"), foot.position, Literal(p["POSITION"])))
+            g.add((foot.a + str(p["ID"]) + str("PL1"), foot.nationality, Literal(p["NATIONALITY"])))
+            g.add((foot.a + str(p["ID"]) + str("PL1"), foot.number, Literal(p["NUMBER"])))
+            g.add((foot.a + str(p["ID"]) + str("PL1"), foot.role, Literal(p["ROLE"])))
+
+
+def mountLaLiga(foot, g, laLigaData):
+    # la liga
+    g.add((foot.Competition, RDF.type, FOAF.Project))
+    g.add((foot.a + str(laLigaData["ID"]) + str("CLL"), RDF.type, Literal("competition")))
+    g.add((foot.a + str(laLigaData["ID"]) + str("CLL"), DC.description, Literal(laLigaData["DESC"][1])))
+    g.add((foot.a + str(laLigaData["ID"])+ str("CLL"), DC.homepage, Literal(laLigaData["DESC"][2])))
+    g.add((foot.a + str(laLigaData["ID"])+ str("CLL"), FOAF.firstname, Literal(laLigaData["NAME_COMPETITION"])))
+    g.add((foot.a + str(laLigaData["ID"])+ str("CLL"), FOAF.nick, Literal(laLigaData["CODE"])))
+    g.add((foot.a + str(laLigaData["ID"])+ str("CLL"), foot.location, Literal(laLigaData["LOCATION"])))
+    for x in laLigaData["TEAMS"]:
+        g.add((foot.a + str(x["ID"]) + str("TLL"), RDF.type, Literal("team")))
+        g.add((foot.a + str(x["ID"]) + str("TLL"), foot.timede, Literal(laLigaData["DESC"][0])))
+        g.add((foot.a + str(x["ID"]) + str("TLL"), FOAF.firstname, Literal(x["NAME_TEAM"])))
+        g.add((foot.a + str(x["ID"]) + str("TLL"), FOAF.nick, Literal(x["SHORTNAME"])))
+        g.add((foot.a + str(x["ID"]) + str("TLL"), foot.address, Literal(x["ADDRESS"])))
+        g.add((foot.a + str(x["ID"]) + str("TLL"), foot.website, Literal(x["WEBSITE"])))
+        g.add((foot.a + str(x["ID"]) + str("TLL"), foot.founded, Literal(x["FOUNDED"])))
+        g.add((foot.a + str(x["ID"]) + str("TLL"), foot.clubcolors, Literal(x["CLUBCOLORS"])))
+        for p in x["PLAYERS"]:
+            g.add((foot.a + str(p["ID"]) + str("JLL"), foot.jogadorde, Literal(x["NAME_TEAM"])))
+            g.add((foot.a + str(p["ID"]) + str("JLL"), FOAF.firstname, Literal(p["NAME_PLAYER"])))
+            g.add((foot.a + str(p["ID"]) + str("JLL"), foot.position, Literal(p["POSITION"])))
+            g.add((foot.a + str(p["ID"]) + str("JLL"), foot.nationality, Literal(p["NATIONALITY"])))
+            g.add((foot.a + str(p["ID"]) + str("JLL"), foot.number, Literal(p["NUMBER"])))
+            g.add((foot.a + str(p["ID"]) + str("JLL"), foot.role, Literal(p["ROLE"])))
+
 
 def main():
     try:
@@ -264,6 +282,8 @@ def main():
 # popular dados das ligas a partir da api
         premierLeagueData = getCompetitionData(idPrimierLeague)
         premierLeagueData["DESC"]= premierLeagueDesc
+
+
         ligue1Data = getCompetitionData(idLigue1)
         ligue1Data["DESC"] = ligue1Desc
         bundesligaData = getCompetitionData(idBundesliga)
@@ -272,6 +292,7 @@ def main():
         seriaAData["DESC"] = seriaADesc
         laLigaData = getCompetitionData(idLaLiga)
         laLigaData["DESC"] = laLigaDesc
+
 
         graphGenerator(premierLeagueData, ligue1Data, bundesligaData,seriaAData,laLigaData)
     except Exception as e:
